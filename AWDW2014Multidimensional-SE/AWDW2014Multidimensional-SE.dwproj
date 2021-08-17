@@ -95,6 +95,10 @@
       <Name>Adventure Works DW.ds</Name>
       <FullPath>Adventure Works DW.ds</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Bike Stores.ds</Name>
+      <FullPath>Bike Stores.ds</FullPath>
+    </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
@@ -138,6 +142,11 @@
             <Name>Adventure Works DW</Name>
             <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-BELINDA;Persist Security Info=True;Password=;User ID=;Initial Catalog=AdventureWorksDW2014</Value>
           </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Bike Stores</Id>
+            <Name>Bike Stores</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-BELINDA;Integrated Security=SSPI;Initial Catalog=BikeStores</Value>
+          </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionProviderMappings>
           <ConfigurationSetting>
@@ -150,6 +159,11 @@
             <Id>Adventure Works DW</Id>
             <Name>Adventure Works DW</Name>
             <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Bike Stores</Id>
+            <Name>Bike Stores</Name>
+            <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
         <ReportActionServers>

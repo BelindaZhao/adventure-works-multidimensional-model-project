@@ -9,6 +9,14 @@
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
         </ImpersonationInfo>
       </DataSource>
+      <DataSource>
+        <ID>Bike Stores</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=LAPTOP-BELINDA;Integrated Security=SSPI;Initial Catalog=BikeStores</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
     </DataSources>
     <Dimensions>
       <Dimension>
